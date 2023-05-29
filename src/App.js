@@ -19,8 +19,11 @@ const App = () => {
         <div className="textContainer">
           <p>
             Unlock the next level of convenience with Kowe Pay. Pay in Style,
-            Pay with Ease, Pay with Confidence. Join the Future of
-            Payments Today!
+            Pay with 
+          </p>
+
+          <p className="text2">
+          Ease, Pay with Confidence. Join the Future of Payments Today!
           </p>
         </div>
 

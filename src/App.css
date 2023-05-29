@@ -4,8 +4,6 @@
   margin: 0;
 }
 
-
-
 body{
   background-color: black;
   font-family: "Manrope";
@@ -14,6 +12,7 @@ body{
   height: 100%;
   overflow-x: hidden;
 }
+
 
 .nav-container {
   align-items: center;
@@ -31,6 +30,7 @@ body{
 }
 
 nav p{
+  font-family: "Manrope";
   font-size: 1.3rem;
   color: white;
 }
@@ -40,6 +40,7 @@ nav p{
 }
 
 .Hero {
+  flex-flow: column;
   padding-top: 2rem;
   transform: translateY(70%);
   margin: 0 auto;
@@ -49,14 +50,27 @@ nav p{
 }
 
 .Hero h1{
+  font-family: "Manrope";
+  font-size: 5vh;
   color: white;
   margin: 1rem 0;
 }
 
-.textContainer .text2{
+.textContainer .text1{
+  font-family: "Manrope";
+  transform:translateY(-30px);
   padding-left: 5.9rem;
   padding-right: 90%;
 }
+
+.text2{
+  transform:translateY(-10px);
+}
+
+ p{
+  font-family: "Manrope";
+}
+
 
 
 .emailHero {
@@ -64,15 +78,12 @@ nav p{
   gap: .6rem;
   justify-content: center;
   align-items: center;
-  margin-top: 1rem;
-  
-  
+  transform:translateY(-30px);
+
 }
 
 
 .left-email {
- /* height: 30px;*/
-/* width: 27rem; */
   display: flex;
 }
 
@@ -87,9 +98,11 @@ nav p{
   border: none;
 }
 
+
 .custom-btn {
   border-radius: 4rem;
 }
+
 
 .footer {
   position: absolute;
@@ -104,10 +117,13 @@ nav p{
   background-color: #0000001a;
 }
 
+
 .text-right{
+  font-family: "Manrope";
   margin-top: auto;
   margin-left:20px ;
 }
+
 
 .Wallet {
  position: absolute;
@@ -122,6 +138,7 @@ nav p{
   width: 100%;
 }
 
+
 @media (max-width: 740px){
   .Hero {
     width: 80%;
@@ -132,11 +149,13 @@ nav p{
   }
 }
 
+
 @media (max-width: 500px){
   .nav {
     padding: 1.5rem 2.5rem;
   }
 }
+
 
 @media (max-width: 650px){
   .emailHero {
@@ -145,6 +164,7 @@ nav p{
     justify-content: center;
   }
 }
+
 
 @media (max-width: 470px){
   html{
